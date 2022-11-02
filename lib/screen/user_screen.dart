@@ -10,9 +10,6 @@ class UsersScreen extends StatefulWidget {
 }
 
 class _UsersScreenState extends State<UsersScreen> {
-  String usersUrl = 'https://jsonplaceholder.typicode.com/users';
-  List<Map<String, dynamic>> usersList = [];
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
